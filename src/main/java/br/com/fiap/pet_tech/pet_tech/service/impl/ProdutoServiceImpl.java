@@ -1,7 +1,6 @@
 package br.com.fiap.pet_tech.pet_tech.service.impl;
 
 import java.util.Collection;
-import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
@@ -10,7 +9,6 @@ import br.com.fiap.pet_tech.pet_tech.entities.ProdutoEntity;
 import br.com.fiap.pet_tech.pet_tech.exceptions.ControllerNotFoundException;
 import br.com.fiap.pet_tech.pet_tech.repositories.ProdutoRepository;
 import br.com.fiap.pet_tech.pet_tech.service.ProdutoService;
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 
 @Service

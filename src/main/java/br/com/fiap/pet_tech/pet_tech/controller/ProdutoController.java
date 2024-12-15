@@ -1,7 +1,6 @@
 package br.com.fiap.pet_tech.pet_tech.controller;
 
 import java.util.Collection;
-import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.http.HttpStatusCode;
