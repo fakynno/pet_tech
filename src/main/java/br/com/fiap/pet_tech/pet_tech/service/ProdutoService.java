@@ -3,17 +3,17 @@ package br.com.fiap.pet_tech.pet_tech.service;
 import java.util.Collection;
 import java.util.UUID;
 
-import br.com.fiap.pet_tech.pet_tech.entities.ProdutoEntity;
+import br.com.fiap.pet_tech.pet_tech.dto.ProdutoDto;
 
 public interface ProdutoService {
 
-    Collection<ProdutoEntity> findAll();
+    Collection<ProdutoDto> findAll();
     
-    ProdutoEntity findById(UUID id);
+    ProdutoDto findById(UUID id);
 
-    ProdutoEntity save(ProdutoEntity produto);
+    ProdutoDto save(ProdutoDto dto);
  
-    ProdutoEntity update(UUID id, ProdutoEntity produto);
+    ProdutoDto update(UUID id, ProdutoDto dto);
 
     void delete(UUID id);
 }
